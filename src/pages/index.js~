@@ -42,7 +42,7 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
-            <Sidebar text="I am a prop"><div>Testing</div></Sidebar>
+        <Sidebar text="I am a prop">Testing</Sidebar>
       </Layout>
     )
   }
