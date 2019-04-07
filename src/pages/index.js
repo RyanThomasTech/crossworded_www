@@ -3,7 +3,6 @@ import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
-import Sidebar from "../components/sidebar"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
@@ -42,7 +41,6 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
-            <Sidebar text="I am a prop"><div>Testing</div></Sidebar>
       </Layout>
     )
   }
