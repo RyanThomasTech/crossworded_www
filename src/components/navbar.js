@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import navbarStyles from "./navbar.module.css"
+import styles from "./navbar.module.css"
 import { rhythm } from "../utils/typography"
 
 class NavBar extends React.Component {
@@ -13,7 +13,7 @@ class NavBar extends React.Component {
           maxWidth: rhythm(24),
         }}
       >
-        <ul>
+        <ul class={styles.ul}>
           <li>
             <Link to="/about">About</Link>
           </li>
