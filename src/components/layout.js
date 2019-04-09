@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import SiteTitle from "./SiteTitle"
-import navbar from "./navbar"
+import NavBar from "./navbar"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -27,6 +27,7 @@ class Layout extends React.Component {
         }}
       >
         <header>{header}</header>
+        <NavBar />
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
