@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import SiteTitle from "./SiteTitle"
+import navbar from "./navbar"
 
 import { rhythm, scale } from "../utils/typography"
 
