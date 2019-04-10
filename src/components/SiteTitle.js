@@ -20,13 +20,13 @@ class SiteTitle extends React.Component {
     const largeStyle = {
       ...scale(1.5),
       marginTop: 0,
-      marginBottom: rhythm(1.5),
+      marginBottom: rhythm(1),
     }
 
     const smallStyle = {
       fontFamily: "Montserrat, sans-serif",
       marginTop: 0,
-      marginBottom: rhythm(-1),
+      marginBottom: rhythm(0.5),
     }
 
     const large = <h1 style={largeStyle}>{this.innerTitle()}</h1>
