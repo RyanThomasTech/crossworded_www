@@ -1,3 +1,23 @@
-.ul li{
-    display: inline;
+.nav {
+  background: #333;
+}
+
+.nav ul {
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding: 8px 10px;
+  margin: 0;
+}
+
+.nav ul li a {
+  color: #ffe;
+  text-decoration: none;
+}
+
+.nav ul li a:hover{
+    color: #000;
 }
