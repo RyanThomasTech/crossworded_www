@@ -8,15 +8,15 @@ class NavBar extends React.Component {
       <nav className={styles.nav}>
         <ul>
           <li>
-            <Link style={{ textDecoration: 'none' }} to="/about">
+            <Link to="#">
               About
             </Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="#">About</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="#">About</Link>
           </li>
         </ul>
       </nav>
