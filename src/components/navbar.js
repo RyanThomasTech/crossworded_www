@@ -5,18 +5,16 @@ import styles from "./navbar.module.css"
 class NavBar extends React.Component {
   render() {
     return (
-      <nav className={styles.nav}>
+      <nav>
         <ul>
           <li>
-            <Link to="#">
-              About
-            </Link>
+            <Link to="/">Blog</Link>
           </li>
           <li>
-            <Link to="#">About</Link>
+            <Link to="#">Resume</Link>
           </li>
           <li>
-            <Link to="#">About</Link>
+            <Link to="#">Contact</Link>
           </li>
         </ul>
       </nav>
