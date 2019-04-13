@@ -1,5 +1,5 @@
 nav {
-  background: #ccc;
+  background: #feb;
 }
 
 nav ul {
@@ -14,7 +14,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-    background: #aaa;
+    background: #fda;
 }
 /*nav ul li:last-child {
     border-right: 1px solid #000;

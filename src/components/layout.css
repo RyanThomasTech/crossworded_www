@@ -1,9 +1,20 @@
 @charset "UTF-8";
 
 body {
-    background-color: #fffff8;
+    background-color: #ffffeb;
 }
 
 div {
-    background-color: #fffff8;
+    background-color: #ffffeb;
+    color: #110;
+}
+
+a {
+    color: #cc5500;
+}
+
+@media screen and (max-width: 760px) {
+    #NavBar {
+        display:none;
+    }
 }
