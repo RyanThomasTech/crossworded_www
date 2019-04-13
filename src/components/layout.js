@@ -19,16 +19,11 @@ class Layout extends React.Component {
     }
 
     return (
-      <div
-        style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
+      <div id="__outer">
         <header>{header}</header>
-        <div id="NavBar"><NavBar /></div>
+        <div id="NavBar">
+          <NavBar />
+        </div>
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
