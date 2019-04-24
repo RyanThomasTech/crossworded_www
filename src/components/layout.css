@@ -1,31 +1,10 @@
 @charset "UTF-8";
 
 body {
-  background-color: #cc5500;
-}
-
-div#__outer {
-  background-color: #ffffeb;
-  color: #110;
-  width: 75%;
-  min-width: 40rem;
-  padding: 1rem 2rem;
-  margin: 2rem auto;
-  display: block;
-  max-width: 48rem;
-  overflow: auto;
-  -webkit-box-shadow: 2px 3px 9px -3px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 2px 3px 9px -3px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 3px 9px -3px rgba(0, 0, 0, 0.75);
-
+  background-color: #666666;
 }
 
 a {
   color: #cc5500;
 }
 
-@media screen and (max-width: 760px) {
-  #NavBar {
-    display: none;
-  }
-}
