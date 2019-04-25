@@ -1,7 +1,7 @@
-nav {
-  background: #ccc;
-}
 
+nav {
+  background: #feb;
+}
 nav ul {
   text-align: center;
 }
@@ -14,7 +14,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-    background: #aaa;
+  background: #fda;
 }
 /*nav ul li:last-child {
     border-right: 1px solid #000;
@@ -24,4 +24,13 @@ nav ul li a {
   color: #221;
   text-decoration: none;
   box-shadow: none;
+}
+
+/*------------------------------
+ * hide the navbar if window can support sidebar
+ * ----------------------------*/
+@media screen and (min-width: 1080px) {
+  nav {
+    display: none;
+  }
 }
