@@ -1,36 +1,28 @@
 
 nav {
-  background: #feb;
+  background: #292929;
 }
 nav ul {
   text-align: center;
+  margin: 0;
 }
 
 nav ul li {
   display: inline-block;
-  padding: 8px 10px;
+  padding: 2px 10px;
   margin: 0;
   /*border-left: 1px solid #000;*/
 }
 
 nav ul li:hover {
-  background: #fda;
+  background: #444;
 }
 /*nav ul li:last-child {
     border-right: 1px solid #000;
 }*/
 
 nav ul li a {
-  color: #221;
+  color: #ccc;
   text-decoration: none;
   box-shadow: none;
-}
-
-/*------------------------------
- * hide the navbar if window can support sidebar
- * ----------------------------*/
-@media screen and (min-width: 1080px) {
-  nav {
-    display: none;
-  }
 }

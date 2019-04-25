@@ -22,31 +22,33 @@ class Layout extends React.Component {
     }
 
     return (
-      <div
-        css={css`
-          display: block;
-          background-color: #ffffeb;
-          color: #110;
-          width: 75%;
-          min-width: ${rhythm(20)};
-          padding: ${rhythm(0.5)} ${rhythm(1)};
-          margin: ${rhythm(1)} auto;
-          max-width: ${rhythm(26)};
-          overflow: auto;
-          -webkit-box-shadow: 2px 3px 9px -3px rgba(0, 0, 0, 0.75);
-          -moz-box-shadow: 2px 3px 9px -3px rgba(0, 0, 0, 0.75);
-          box-shadow: 2px 3px 9px -3px rgba(0, 0, 0, 0.75);
-        `}
-      >
-        <header>{header}</header>
+      <>
         <NavBar />
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
+        <div
+          css={css`
+            display: block;
+            background-color: #ffffeb;
+            color: #110;
+            width: 75%;
+            min-width: ${rhythm(20)};
+            padding: ${rhythm(0.5)} ${rhythm(1)};
+            margin: ${rhythm(0.5)} auto ${rhythm(1)};
+            max-width: ${rhythm(26)};
+            overflow: auto;
+            -webkit-box-shadow: 2px 3px 9px -3px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 2px 3px 9px -3px rgba(0, 0, 0, 0.75);
+            box-shadow: 2px 3px 9px -3px rgba(0, 0, 0, 0.75);
+          `}
+        >
+          <header>{header}</header>
+          <main>{children}</main>
+          <footer>
+            © {new Date().getFullYear()}, Built with
+            {` `}
+            <a href="https://www.gatsbyjs.org">Gatsby</a>
+          </footer>
+        </div>
+      </>
     )
   }
 }
