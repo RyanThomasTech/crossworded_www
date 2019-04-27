@@ -8,6 +8,14 @@ a {
   color: #cc5500;
 }
 
+ul {
+    margin-left: 5%;
+}
+
+ol {
+    margin-left: 5%;
+}
+
 .sidenote,
 .marginnote {
     display:block;
