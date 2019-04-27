@@ -8,3 +8,60 @@ a {
   color: #cc5500;
 }
 
+.sidenote,
+.marginnote {
+    display:block;
+  background-color: #ffffeb;
+  color: #110;
+  float: right;
+  clear: right;
+  margin-right: -45%;
+  width: 40%;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  vertical-align: baseline;
+  position: relative;
+}
+
+label.margin-toggle:not(.sidenote-number) {
+  display: none;
+}
+
+@media (max-width: 760px) {
+
+  label.margin-toggle:not(.sidenote-number) {
+    display: inline;
+    font-size: 1.2rem;
+    color: #cc5500;
+    vertical-align: super;
+    margin-left: -4px;
+    text-decoration: underline;
+  }
+
+  .sidenote,
+  .marginnote {
+    display: none;
+  }
+
+  .margin-toggle:checked + .sidenote,
+  .margin-toggle:checked + .marginnote {
+    display: block;
+    float: left;
+    left: 1rem;
+    clear: both;
+    width: 95%;
+    margin: 1rem 2.5%;
+    vertical-align: baseline;
+    position: relative;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    -webkit-user-select: text;
+    user-select: text;
+  }
+
+  label {
+    cursor: pointer;
+  }
+}

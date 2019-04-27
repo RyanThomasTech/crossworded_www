@@ -29,11 +29,9 @@ class Layout extends React.Component {
             display: block;
             background-color: #ffffeb;
             color: #110;
-            width: 75%;
             min-width: ${rhythm(20)};
             padding: ${rhythm(0.5)} ${rhythm(1)};
             margin: ${rhythm(0.5)} auto ${rhythm(1)};
-            max-width: ${rhythm(26)};
             overflow: auto;
             -webkit-box-shadow: 2px 3px 9px -3px rgba(0, 0, 0, 0.75);
             -moz-box-shadow: 2px 3px 9px -3px rgba(0, 0, 0, 0.75);

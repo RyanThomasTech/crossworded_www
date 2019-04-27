@@ -1,3 +1,5 @@
+/** @jsx jsx */
+
 /**
  * Bio component that queries for data
  * with Gatsby's StaticQuery component
@@ -8,21 +10,27 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
+import { jsx, css } from "@emotion/core"
 
 import { rhythm } from "../utils/typography"
 
 function Bio() {
-  return (
+    const bodyMinWidth = rhythm(20)
+    const bodyMaxWidth = rhythm(24)
+    const bodyWidthParams = `min-width: ${bodyMinWidth};\nmax-width: ${bodyMaxWidth};\n`
+    
+    return (
     <StaticQuery
       query={bioQuery}
       render={data => {
         const { author, social } = data.site.siteMetadata
         return (
           <div
-            style={{
-              display: `flex`,
-              marginBottom: rhythm(2.5),
-            }}
+              css={css`
+              ${bodyWidthParams}
+              display: flex;
+              margin: auto auto ${rhythm(2)};
+            `}
           >
             <Image
               fixed={data.avatar.childImageSharp.fixed}
