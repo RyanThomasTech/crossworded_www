@@ -37,6 +37,10 @@ label.margin-toggle:not(.sidenote-number) {
   display: none;
 }
 
+input.margin-toggle {
+    display: none;
+}
+
 @media (max-width: 760px) {
 
   label.margin-toggle:not(.sidenote-number) {
