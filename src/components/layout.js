@@ -3,9 +3,8 @@ import React from "react"
 import { Link } from "gatsby"
 import SiteTitle from "./SiteTitle"
 import NavBar from "./navbar"
-import "./layout.css"
 import Sidebar from "./sidebar"
-import { jsx, css } from "@emotion/core"
+import { Global, jsx, css } from "@emotion/core"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -33,11 +32,18 @@ class Layout extends React.Component {
             padding: ${rhythm(0.5)} ${rhythm(1)};
             margin: ${rhythm(0.5)} auto ${rhythm(1)};
             overflow: auto;
-            -webkit-box-shadow: 2px 3px 9px -3px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: 2px 3px 9px -3px rgba(0, 0, 0, 0.75);
-            box-shadow: 2px 3px 9px -3px rgba(0, 0, 0, 0.75);
           `}
         >
+          <Global
+            styles={css`
+              body {
+                background-color: #666;
+              }
+              a {
+                color: #cc5500;
+              }
+            `}
+          />
           <header>{header}</header>
           <main>{children}</main>
           <footer>
