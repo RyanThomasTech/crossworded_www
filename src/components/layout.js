@@ -27,8 +27,6 @@ class Layout extends React.Component {
           css={css`
             display: block;
             background-color: #ffffed;
-            color: #110;
-            min-width: ${rhythm(20)};
             padding: ${rhythm(0.5)} ${rhythm(1)};
             overflow: auto;
           `}

@@ -1,3 +1,4 @@
+/** @jsx jsx */
 import React from "react"
 import { Link, graphql } from "gatsby"
 
@@ -5,12 +6,16 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import { jsx, css } from "@emotion/core"
 
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
+    const bodyMinWidth = rhythm(18)
+    const bodyMaxWidth = rhythm(22)
+    const bodyWidthParams = `min-width: ${bodyMinWidth};\nmax-width: ${bodyMaxWidth};\n`
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -23,7 +28,14 @@ class BlogIndex extends React.Component {
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <div key={node.fields.slug}>
+            <div
+              key={node.fields.slug}
+              css={css`
+                ${bodyWidthParams}
+                text-align: justify;
+                margin: auto;
+              `}
+            >
               <h3
                 style={{
                   marginBottom: rhythm(1 / 4),
