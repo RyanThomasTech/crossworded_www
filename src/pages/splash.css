@@ -1,0 +1,51 @@
+.container {
+  display: grid;
+  grid-template-columns: 
+  30px 30px 30px 30px 30px
+    30px 30px 30px 30px 30px
+    30px;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "ryan-r ryan-y ryan-a0 ryan-n . ryan-t ryan-h ryan-o ryan-m ryan-a1 ryan-s"
+}
+
+.ryan-r {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.ryan-y {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.ryan-a0 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.ryan-n {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.ryan-t {
+    grid-area: 1 / 6 / 2 / 7;
+}
+
+.ryan-h {
+    grid-area: 1 / 7 / 2 / 8;
+}
+
+.ryan-o {
+    grid-area: 1 / 8 / 2 / 9;
+}
+
+.ryan-m {
+    grid-area: 1 / 9 / 2 / 10;
+}
+
+.ryan-a1 {
+    grid-area: 1 / 10 / 2 / 11;
+}
+
+.ryan-s {
+    grid-area: 1 / 11 / 2 / -1;
+}
+

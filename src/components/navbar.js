@@ -11,7 +11,7 @@ class NavBar extends React.Component {
             <Link to="/">Blog</Link>
           </li>
           <li>
-            <Link to="#">Resume</Link>
+            <Link to="splash">Resume</Link>
           </li>
           <li>
             <Link to="#">Contact</Link>
