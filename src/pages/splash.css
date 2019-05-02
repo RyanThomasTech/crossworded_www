@@ -9,6 +9,13 @@
   " brie-e . . . . . . . . . . ";
 }
 
+.brie:hover {
+    color: yellow;
+}
+
+.brie:hover~.brie {
+    color: yellow;
+}
 
 .brie-b {
     grid-area: 1 / 2 / 2 / 3;

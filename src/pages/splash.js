@@ -9,10 +9,10 @@ class splash extends React.Component {
     return (
       <Layout location="splash">
           <div class="container">
-              <span class="brie-b"><h1>B</h1></span>
-              <span class="brie-i"><h1>I</h1></span>
-              <span class="brie-e"><h1>E</h1></span>
-          <span class="ryan-r">
+              <span class="brie-b brie"><h1>B</h1></span>
+              <span class="brie-i brie"><h1>I</h1></span>
+              <span class="brie-e brie"><h1>E</h1></span>
+          <span class="ryan-r brie">
             <h1>R</h1>
           </span>
           <span class="ryan-y">
