@@ -8,36 +8,39 @@ class splash extends React.Component {
   render() {
     return (
       <Layout location="splash">
-        <div class="container">
+          <div class="container">
+              <span class="brie-b"><h1>B</h1></span>
+              <span class="brie-i"><h1>I</h1></span>
+              <span class="brie-e"><h1>E</h1></span>
           <span class="ryan-r">
-            <h2>R</h2>
+            <h1>R</h1>
           </span>
           <span class="ryan-y">
-            <h2>y</h2>
+            <h1>y</h1>
           </span>
           <span class="ryan-a0">
-            <h2>a</h2>
+            <h1>a</h1>
           </span>
           <span class="ryan-n">
-            <h2>n</h2>
+            <h1>n</h1>
           </span>
           <span class="ryan-t">
-            <h2>T</h2>
+            <h1>T</h1>
           </span>
           <span class="ryan-h">
-            <h2>h</h2>
+            <h1>h</h1>
           </span>
           <span class="ryan-o">
-            <h2>o</h2>
+              <h1>o</h1>
           </span>
           <span class="ryan-m">
-            <h2>m</h2>
+            <h1>m</h1>
           </span>
           <span class="ryan-a1">
-            <h2>a</h2>
+            <h1>a</h1>
           </span>
           <span class="ryan-s">
-            <h2>s</h2>
+            <h1>s</h1>
           </span>
         </div>
       </Layout>
