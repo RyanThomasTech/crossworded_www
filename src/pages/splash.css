@@ -1,36 +1,96 @@
+@font-face {
+    font-family: 'roboto_monoregular';
+    src: url('../../fonts/robotomono-regular-webfont.woff2') format('woff2'),
+         url('../../fonts/robotomono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+  font-family: "roboto_monoregular";
+}
+
+h1 {
+  font-family: "roboto_monoregular", monospace;
+  font-size: 64px;
+  margin: 0;
+}
+
+h2 {
+  font-family: "roboto_monoregular", monospace;
+  font-size: 50px;
+  margin: 0;
+}
+
 .container {
   display: grid;
-  grid-template-columns:1fr repeat(4, auto) 10px repeat(6, auto) 1fr;
-  grid-template-rows: repeat(4, auto);
-  grid-template-areas:
- "brie-b . . . . . . . . . . " 
-  " . ryan-r ryan-y ryan-a0 ryan-n . ryan-t ryan-h ryan-o ryan-m ryan-a1 ryan-s . "
-  " brie-i . . . . . . . . . . "
-  " brie-e . . . . . . . . . . ";
+  grid-template-columns: 1fr repeat(4, auto) 10px repeat(6, auto) 1fr;
+  grid-template-rows: repeat(3, auto);
+  pointer-events: none;
 }
 
-.brie:hover {
-    color: yellow;
+.container > .prog {
+  pointer-events: auto;
+  -webkit-transition: 0.5s;
+  transition: 0.2s;
+  cursor: default;
 }
 
-.brie:hover~.brie {
-    color: yellow;
+.container:hover > .prog {
+  -webkit-transition: 0.5s;
+  transition: 0.3s;
+  opacity: 1;
 }
 
-.brie-b {
-    grid-area: 1 / 2 / 2 / 3;
+.container > .artist {
+  pointer-events: auto;
+  -webkit-transition: 0.5s;
+  transition: 0.2s;
+  cursor: default;
 }
 
-.brie-i {
-    grid-area: 3 / 2 / 4 / 3;
+.container:hover > .artist {
+  -webkit-transition: 0.5s;
+  transition: 0.3s;
+  opacity: 1;
 }
 
-.brie-e {
-    grid-area: 4 / 2 / 5 / 3;
+.crossword {
+  opacity: 0.05;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
 }
+
+/*
+ * start-row / start-col / end-row / end-col
+ * */
+
+/*
+ * programmer
+ */
+
+.prog-before {
+  grid-area: 1 / 2 / 2 / 3;
+  text-align: center;
+}
+
+.prog-after {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+/*
+ * artist
+ */
+.artist-after {
+    grid-area: 3 / 4 / 4 / 5;
+}
+/*
+     * name
+     * */
 
 .ryan-r {
   grid-area: 2 / 2 / 3 / 3;
+  text-align: center;
 }
 
 .ryan-y {
