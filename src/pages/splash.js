@@ -21,14 +21,8 @@ class splash extends React.Component {
     return (
       <Layout location="splash">
         <span className="container">
-          <span className="ryan-r prog">
-            <h1>R</h1>
-          </span>
           <span className="ryan-y">
             <h1>y</h1>
-          </span>
-          <span className="ryan-a0 artist">
-            <h1>a</h1>
           </span>
           <span className="ryan-n">
             <h1>n</h1>
@@ -51,15 +45,25 @@ class splash extends React.Component {
           <span className="ryan-s">
             <h1>s</h1>
           </span>
-          <span className="prog-before prog crossword">
-            <h2>prog</h2>
+          <span className="verticalContainer-prog">
+            <span className="prog-r prog">
+              <h1>R</h1>
+            </span>
+            <span className="prog-before prog crossword">
+              <h2>prog</h2>
+            </span>
+            <span className="prog-after prog crossword">
+              <h2>ammer</h2>
+            </span>
           </span>
-          <span className="prog-after prog crossword">
-            <h2>ammer</h2>
-        </span>
-        <span className="artist-after artist crossword">
-            <h2>rtist</h2>
-        </span>
+          <span className="verticalContainer-artist artist">
+            <span className="artist-a artist">
+              <h1>a</h1>
+            </span>
+            <span className="artist-after artist crossword">
+              <h2>rtist</h2>
+            </span>
+          </span>
         </span>
       </Layout>
     )
