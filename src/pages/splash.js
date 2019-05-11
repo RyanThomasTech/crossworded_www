@@ -31,69 +31,75 @@ class splash extends React.Component {
           <span className="ryan-h">
             <h1>h</h1>
           </span>
-          <span className="ryan-s">
-            <h1>s</h1>
+          <span className="ryan-m">
+            <h1>m</h1>
           </span>
           <span className="verticalContainer-prog">
-            <span className="prog-r prog">
-              <h1>R</h1>
+            <span className="mid prog">
+              <a
+                href="https://github.com/ryanthomastech"
+                title="Github"
+                className="splashLink"
+              >
+                <h1>R</h1>
+              </a>
             </span>
-            <span className="prog-before prog crossword">
+            <span className="before prog crossword">
               <h2>prog</h2>
             </span>
-            <span className="prog-after prog crossword">
+            <span className="after prog crossword">
               <h2>ammer</h2>
             </span>
           </span>
           <span className="verticalContainer-artist artist">
-            <span className="artist-a artist">
+            <span className="mid artist">
               <h1>a</h1>
             </span>
-            <span className="artist-after artist crossword">
+            <span className="after artist crossword">
               <h2>rtist</h2>
             </span>
           </span>
           <span className="verticalContainer-entrtnr">
-            <span className="entrtnr-before entrtnr crossword">
+            <span className="before entrtnr crossword">
               <h2>enter</h2>
             </span>
-            <span className="entrtnr-after entrtnr crossword">
+            <span className="after entrtnr crossword">
               <h2>ainer</h2>
             </span>
-            <span className="entrtnr-mid entrtnr">
+            <span className="mid entrtnr">
               <h1>T</h1>
             </span>
           </span>
           <span className="verticalContainer-blog">
-            <span className="blog-before blog crossword">
+            <span className="before blog crossword">
               <h2>bl</h2>
             </span>
-            <span className="blog-after blog crossword">
+            <span className="after blog crossword">
               <h2>g</h2>
             </span>
-            <span className="blog-mid blog">
+            <span className="mid blog">
               <h1>o</h1>
             </span>
           </span>
           <span className="verticalContainer-resume">
-            <span className="resume-before resume crossword">
-              <h2>resu</h2>
+            <span className="before resume crossword">
+              <h2>re</h2>
             </span>
-            <span className="resume-after resume crossword">
-              <h2>e</h2>
+            <span className="after resume crossword">
+              <h2>ume</h2>
             </span>
-            <span className="resume-mid resume">
-              <h1>m</h1>
+            <span className="mid resume">
+              <h1>s</h1>
             </span>
           </span>
           <span className="verticalContainer-contact">
-            <span className="contact-before contact crossword">
+            <span className="before contact crossword">
               <h2>cont</h2>
             </span>
-            <span className="contact-after contact crossword">
+            <span className="after contact crossword">
               <h2>ct</h2>
             </span>
-            <span className="contact-mid contact">
+            <span className="mid contact">
               <h1>a</h1>
             </span>
           </span>
