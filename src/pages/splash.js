@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import React from "react"
 import { jsx, css } from "@emotion/core"
-import Layout from "../components/layout"
+import Navbar from "../components/navbar"
 import "./splash.css"
 
 /* TODO: javascript decorations
@@ -19,25 +19,17 @@ function mouseoverBrie() {
 class splash extends React.Component {
   render() {
     return (
-      <Layout location="splash">
-        <span className="container">
+      <div>
+        <Navbar />
+        <div className="container">
           <span className="ryan-y">
             <h1>y</h1>
           </span>
           <span className="ryan-n">
             <h1>n</h1>
           </span>
-          <span className="ryan-t">
-            <h1>T</h1>
-          </span>
-          <span className="ryan-o">
-            <h1>o</h1>
-          </span>
-          <span className="ryan-m">
-            <h1>m</h1>
-          </span>
-          <span className="ryan-a1">
-            <h1>a</h1>
+          <span className="ryan-h">
+            <h1>h</h1>
           </span>
           <span className="ryan-s">
             <h1>s</h1>
@@ -61,19 +53,52 @@ class splash extends React.Component {
               <h2>rtist</h2>
             </span>
           </span>
-          <span className="verticalContainer-fishkpr">
-            <span className="fishkpr-before fishkpr crossword">
-              <h2>fis</h2>
+          <span className="verticalContainer-entrtnr">
+            <span className="entrtnr-before entrtnr crossword">
+              <h2>enter</h2>
             </span>
-            <span className="fishkpr-after fishkpr crossword">
-              <h2>keeper</h2>
+            <span className="entrtnr-after entrtnr crossword">
+              <h2>ainer</h2>
             </span>
-            <span className="fishkpr-h fishkpr">
-              <h1>h</h1>
+            <span className="entrtnr-mid entrtnr">
+              <h1>T</h1>
             </span>
           </span>
-        </span>
-      </Layout>
+          <span className="verticalContainer-blog">
+            <span className="blog-before blog crossword">
+              <h2>bl</h2>
+            </span>
+            <span className="blog-after blog crossword">
+              <h2>g</h2>
+            </span>
+            <span className="blog-mid blog">
+              <h1>o</h1>
+            </span>
+          </span>
+          <span className="verticalContainer-resume">
+            <span className="resume-before resume crossword">
+              <h2>resu</h2>
+            </span>
+            <span className="resume-after resume crossword">
+              <h2>e</h2>
+            </span>
+            <span className="resume-mid resume">
+              <h1>m</h1>
+            </span>
+          </span>
+          <span className="verticalContainer-contact">
+            <span className="contact-before contact crossword">
+              <h2>cont</h2>
+            </span>
+            <span className="contact-after contact crossword">
+              <h2>ct</h2>
+            </span>
+            <span className="contact-mid contact">
+              <h1>a</h1>
+            </span>
+          </span>
+        </div>
+      </div>
     )
   }
 }
