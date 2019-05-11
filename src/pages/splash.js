@@ -30,9 +30,6 @@ class splash extends React.Component {
           <span className="ryan-t">
             <h1>T</h1>
           </span>
-          <span className="ryan-h">
-            <h1>h</h1>
-          </span>
           <span className="ryan-o">
             <h1>o</h1>
           </span>
@@ -62,6 +59,17 @@ class splash extends React.Component {
             </span>
             <span className="artist-after artist crossword">
               <h2>rtist</h2>
+            </span>
+          </span>
+          <span className="verticalContainer-fishkpr">
+            <span className="fishkpr-before fishkpr crossword">
+              <h2>fis</h2>
+            </span>
+            <span className="fishkpr-after fishkpr crossword">
+              <h2>keeper</h2>
+            </span>
+            <span className="fishkpr-h fishkpr">
+              <h1>h</h1>
             </span>
           </span>
         </span>
