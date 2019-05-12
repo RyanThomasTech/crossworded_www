@@ -1,6 +1,6 @@
 
 nav {
-  background: #ffffed;
+  background: #fffffd;
 }
 nav ul {
   text-align: right;
@@ -14,7 +14,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-  background: #ccc;
+  background: #eee;
 }
 /*nav ul li:last-child {
     border-right: 1px solid #000;
