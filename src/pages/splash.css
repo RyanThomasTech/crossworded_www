@@ -32,6 +32,10 @@ h2 {
   display: grid;
   grid-template-columns: 1fr repeat(4, auto) 15px repeat(6, auto) 1fr;
   grid-template-rows: 1fr auto 1fr;
+  height: 600px;
+  width: 440px;
+  margin: 0 auto 0 auto;
+  box-shadow: 0 1px 0px 0px gray;
 }
 
 .crossword {
