@@ -2,7 +2,9 @@
 import React from "react"
 import { jsx, css } from "@emotion/core"
 import Navbar from "../components/navbar"
-import "./splash.css"
+import styles from "./splash.module.css"
+
+console.log(styles)
 
 /* TODO: javascript decorations
  * first priority is getting a css-primary 
@@ -22,21 +24,21 @@ class splash extends React.Component {
       <div>
         <Navbar />
         <div>
-          <div className="container">
-            <span className="ryan-y">
+          <div className={styles.container}>
+            <span className={ styles.ryan_y }>
               <h1>y</h1>
             </span>
-            <span className="ryan-n">
+            <span className={ styles.ryan_n }>
               <h1>n</h1>
             </span>
-            <span className="ryan-h">
+            <span className={ styles.ryan_h }>
               <h1>h</h1>
             </span>
-            <span className="ryan-m">
+            <span className={ styles.ryan_m }>
               <h1>m</h1>
             </span>
-            <span className="verticalContainer-prog">
-              <span className="mid prog">
+            <span className={ styles.verticalContainer_prog }>
+              <span className={ styles.prog_mid }>
                 <a
                   href="https://github.com/ryanthomastech"
                   title="Github"
@@ -45,68 +47,68 @@ class splash extends React.Component {
                   <h1>R</h1>
                 </a>
               </span>
-              <span className="before prog crossword">
+              <span className={ styles.prog_before }>
                 <h2>prog</h2>
               </span>
-              <span className="after prog crossword">
+              <span className={ styles.prog_after }>
                 <h2>ammer</h2>
               </span>
             </span>
-            <span className="verticalContainer-artist artist">
-              <span className="mid artist">
+            <span className={ styles.verticalContainer_artist }>
+              <span className={ styles.artist_mid }>
                 <h1>a</h1>
               </span>
-              <span className="after artist crossword">
+              <span className={ styles.artist_after }>
                 <h2>rtist</h2>
               </span>
             </span>
-            <span className="verticalContainer-entrtnr">
-              <span className="before entrtnr crossword">
+            <span className={ styles.verticalContainer_entrtnr }>
+              <span className={ styles.entrtnr_before }>
                 <h2>enter</h2>
               </span>
-              <span className="after entrtnr crossword">
+              <span className={ styles.entrtnr_after }>
                 <h2>ainer</h2>
               </span>
-              <span className="mid entrtnr">
+              <span className={ styles.entrtnr_mid }>
                 <h1>T</h1>
               </span>
             </span>
-            <span className="verticalContainer-blog">
-              <span className="before blog crossword">
+            <span className={ styles.verticalContainer_blog }>
+              <span className={ styles.blog_before }>
                 <h2>bl</h2>
               </span>
-              <span className="after blog crossword">
+              <span className={ styles.blog_after }>
                 <h2>g</h2>
               </span>
-              <span className="mid blog">
+              <span className={ styles.blog_mid }>
                 <h1>o</h1>
               </span>
             </span>
-            <span className="verticalContainer-resume">
-              <span className="before resume crossword">
+            <span className={ styles.verticalContainer_resume }>
+              <span className={ styles.resume_before }>
                 <h2>re</h2>
               </span>
-              <span className="after resume crossword">
+              <span className={ styles.resume_after }>
                 <h2>ume</h2>
               </span>
-              <span className="mid resume">
+              <span className={ styles.resume_mid }>
                 <h1>s</h1>
               </span>
             </span>
-            <span className="verticalContainer-contact">
-              <span className="before contact crossword">
+            <span className={ styles.verticalContainer_contact }>
+              <span className={ styles.contact_before }>
                 <h2>cont</h2>
               </span>
-              <span className="after contact crossword">
+              <span className={ styles.contact_after }>
                 <h2>ct</h2>
               </span>
-              <span className="mid contact">
+              <span className={ styles.contact_mid }>
                 <h1>a</h1>
               </span>
             </span>
           </div>
           <div
-              css={css`
+            css={css`
               font-family: "roboto_monoregular";
               text-align: center;
               margin: 0 auto 0 auto;
