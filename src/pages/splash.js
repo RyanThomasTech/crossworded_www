@@ -18,6 +18,14 @@ function mouseoverBrie() {
 
 */
 
+const nameStyle = css`
+  font-family: "roboto_monoregular", monospace;
+  font-size: 64px;
+  margin: 0;
+  line-height: 1.1;
+  font-weight: 900;
+`
+
 class splash extends React.Component {
   render() {
     return (
@@ -25,26 +33,26 @@ class splash extends React.Component {
         <Navbar />
         <div>
           <div className={styles.container}>
-            <span id={styles.ryan_y}>
-              <h1>y</h1>
+            <span id={styles.ryan_y} css={nameStyle}>
+              y
             </span>
-            <span id={styles.ryan_n}>
-              <h1>n</h1>
+            <span id={styles.ryan_n} css={nameStyle}>
+              n
             </span>
-            <span id={styles.ryan_h}>
-              <h1>h</h1>
+            <span id={styles.ryan_h} css={nameStyle}>
+              h
             </span>
-            <span id={styles.ryan_m}>
-              <h1>m</h1>
+            <span id={styles.ryan_m} css={nameStyle}>
+              m
             </span>
             <span className={styles.verticalContainer} id={styles.vc_prog}>
-              <span className={styles.mid}>
+              <span className={styles.mid} css={nameStyle}>
                 <a
                   href="https://github.com/ryanthomastech"
                   title="Github"
                   className="splashLink"
                 >
-                  <h1>R</h1>
+                  R
                 </a>
               </span>
               <span className={styles.before}>
@@ -55,8 +63,8 @@ class splash extends React.Component {
               </span>
             </span>
             <span className={styles.verticalContainer} id={styles.vc_artist}>
-              <span className={styles.mid}>
-                <h1>a</h1>
+              <span className={styles.mid} css={nameStyle}>
+                a
               </span>
               <span className={styles.after}>
                 <h2>rtist</h2>
@@ -69,8 +77,8 @@ class splash extends React.Component {
               <span className={styles.after}>
                 <h2>ainer</h2>
               </span>
-              <span className={styles.mid}>
-                <h1>T</h1>
+              <span className={styles.mid} css={nameStyle}>
+                T
               </span>
             </span>
             <span className={styles.verticalContainer} id={styles.vc_blog}>
@@ -80,8 +88,8 @@ class splash extends React.Component {
               <span className={styles.after}>
                 <h2>g</h2>
               </span>
-              <span className={styles.mid}>
-                <h1>o</h1>
+              <span className={styles.mid} css={nameStyle}>
+                o
               </span>
             </span>
             <span className={styles.verticalContainer} id={styles.vc_resume}>
@@ -91,8 +99,8 @@ class splash extends React.Component {
               <span className={styles.after}>
                 <h2>ume</h2>
               </span>
-              <span className={styles.mid}>
-                <h1>s</h1>
+              <span className={styles.mid} css={nameStyle}>
+                s
               </span>
             </span>
             <span className={styles.verticalContainer} id={styles.vc_contact}>
@@ -102,8 +110,8 @@ class splash extends React.Component {
               <span className={styles.after}>
                 <h2>ct</h2>
               </span>
-              <span className={styles.mid}>
-                <h1>a</h1>
+              <span className={styles.mid} css={nameStyle}>
+                a
               </span>
             </span>
           </div>
