@@ -25,20 +25,20 @@ class splash extends React.Component {
         <Navbar />
         <div>
           <div className={styles.container}>
-            <span className={ styles.ryan_y }>
+            <span id={styles.ryan_y}>
               <h1>y</h1>
             </span>
-            <span className={ styles.ryan_n }>
+            <span id={styles.ryan_n}>
               <h1>n</h1>
             </span>
-            <span className={ styles.ryan_h }>
+            <span id={styles.ryan_h}>
               <h1>h</h1>
             </span>
-            <span className={ styles.ryan_m }>
+            <span id={styles.ryan_m}>
               <h1>m</h1>
             </span>
-            <span className={ styles.verticalContainer_prog }>
-              <span className={ styles.prog_mid }>
+            <span className={styles.verticalContainer} id={styles.vc_prog}>
+              <span className={styles.mid}>
                 <a
                   href="https://github.com/ryanthomastech"
                   title="Github"
@@ -47,62 +47,62 @@ class splash extends React.Component {
                   <h1>R</h1>
                 </a>
               </span>
-              <span className={ styles.prog_before }>
+              <span className={styles.before}>
                 <h2>prog</h2>
               </span>
-              <span className={ styles.prog_after }>
+              <span className={styles.after}>
                 <h2>ammer</h2>
               </span>
             </span>
-            <span className={ styles.verticalContainer_artist }>
-              <span className={ styles.artist_mid }>
+            <span className={styles.verticalContainer} id={styles.vc_artist}>
+              <span className={styles.mid}>
                 <h1>a</h1>
               </span>
-              <span className={ styles.artist_after }>
+              <span className={styles.after}>
                 <h2>rtist</h2>
               </span>
             </span>
-            <span className={ styles.verticalContainer_entrtnr }>
-              <span className={ styles.entrtnr_before }>
+            <span className={styles.verticalContainer} id={styles.vc_entrtnr}>
+              <span className={styles.before}>
                 <h2>enter</h2>
               </span>
-              <span className={ styles.entrtnr_after }>
+              <span className={styles.after}>
                 <h2>ainer</h2>
               </span>
-              <span className={ styles.entrtnr_mid }>
+              <span className={styles.mid}>
                 <h1>T</h1>
               </span>
             </span>
-            <span className={ styles.verticalContainer_blog }>
-              <span className={ styles.blog_before }>
+            <span className={styles.verticalContainer} id={styles.vc_blog}>
+              <span className={styles.before}>
                 <h2>bl</h2>
               </span>
-              <span className={ styles.blog_after }>
+              <span className={styles.after}>
                 <h2>g</h2>
               </span>
-              <span className={ styles.blog_mid }>
+              <span className={styles.mid}>
                 <h1>o</h1>
               </span>
             </span>
-            <span className={ styles.verticalContainer_resume }>
-              <span className={ styles.resume_before }>
+            <span className={styles.verticalContainer} id={styles.vc_resume}>
+              <span className={styles.before}>
                 <h2>re</h2>
               </span>
-              <span className={ styles.resume_after }>
+              <span className={styles.after}>
                 <h2>ume</h2>
               </span>
-              <span className={ styles.resume_mid }>
+              <span className={styles.mid}>
                 <h1>s</h1>
               </span>
             </span>
-            <span className={ styles.verticalContainer_contact }>
-              <span className={ styles.contact_before }>
+            <span className={styles.verticalContainer} id={styles.vc_contact}>
+              <span className={styles.before}>
                 <h2>cont</h2>
               </span>
-              <span className={ styles.contact_after }>
+              <span className={styles.after}>
                 <h2>ct</h2>
               </span>
-              <span className={ styles.contact_mid }>
+              <span className={styles.mid}>
                 <h1>a</h1>
               </span>
             </span>
