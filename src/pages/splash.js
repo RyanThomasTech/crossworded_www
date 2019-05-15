@@ -26,6 +26,14 @@ const nameStyle = css`
   font-weight: 900;
 `
 
+const crosswordStyle = css`
+  font-family: "roboto_monoregular", monospace;
+  font-size: 50px;
+  margin: 0;
+  line-height: 41px;
+  font-weight: 600;
+`
+
 class splash extends React.Component {
   render() {
     return (
@@ -50,65 +58,65 @@ class splash extends React.Component {
                 <a
                   href="https://github.com/ryanthomastech"
                   title="Github"
-                  className="splashLink"
+                  className={styles.splashLink}
                 >
                   R
                 </a>
               </span>
-              <span className={styles.before}>
-                <h2>prog</h2>
+              <span className={styles.before} css={crosswordStyle}>
+                prog
               </span>
-              <span className={styles.after}>
-                <h2>ammer</h2>
+              <span className={styles.after} css={crosswordStyle}>
+                ammer
               </span>
             </span>
             <span className={styles.verticalContainer} id={styles.vc_artist}>
               <span className={styles.mid} css={nameStyle}>
                 a
               </span>
-              <span className={styles.after}>
-                <h2>rtist</h2>
+              <span className={styles.after} css={crosswordStyle}>
+                rtist
               </span>
             </span>
             <span className={styles.verticalContainer} id={styles.vc_entrtnr}>
-              <span className={styles.before}>
-                <h2>enter</h2>
+              <span className={styles.before} css={crosswordStyle}>
+                enter
               </span>
-              <span className={styles.after}>
-                <h2>ainer</h2>
+              <span className={styles.after} css={crosswordStyle}>
+                ainer
               </span>
               <span className={styles.mid} css={nameStyle}>
                 T
               </span>
             </span>
             <span className={styles.verticalContainer} id={styles.vc_blog}>
-              <span className={styles.before}>
-                <h2>bl</h2>
+              <span className={styles.before} css={crosswordStyle}>
+                bl
               </span>
-              <span className={styles.after}>
-                <h2>g</h2>
+              <span className={styles.after} css={crosswordStyle}>
+                g
               </span>
               <span className={styles.mid} css={nameStyle}>
                 o
               </span>
             </span>
             <span className={styles.verticalContainer} id={styles.vc_resume}>
-              <span className={styles.before}>
-                <h2>re</h2>
+              <span className={styles.before} css={crosswordStyle}>
+                re
               </span>
-              <span className={styles.after}>
-                <h2>ume</h2>
+              <span className={styles.after} css={crosswordStyle}>
+                ume
               </span>
               <span className={styles.mid} css={nameStyle}>
                 s
               </span>
             </span>
             <span className={styles.verticalContainer} id={styles.vc_contact}>
-              <span className={styles.before}>
-                <h2>cont</h2>
+              <span className={styles.before} css={crosswordStyle}>
+                cont
               </span>
-              <span className={styles.after}>
-                <h2>ct</h2>
+              <span className={styles.after} css={crosswordStyle}>
+                ct
               </span>
               <span className={styles.mid} css={nameStyle}>
                 a

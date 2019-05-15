@@ -11,16 +11,10 @@ html {
 }
 
 
-h2 {
-  font-family: "roboto_monoregular", monospace;
-  font-size: 50px;
-  margin: 0;
-  line-height: 41px;
-}
-
 .splashLink {
   text-decoration: none;
   color: #060606;
+  box-shadow: none;
 }
 
 .container {
