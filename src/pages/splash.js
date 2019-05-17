@@ -57,6 +57,7 @@ class splash extends React.Component {
               <span className={styles.mid} css={nameStyle}>
                 <a
                   href="https://github.com/ryanthomastech"
+                  target="_blank"
                   title="Github"
                   className={styles.splashLink}
                 >
@@ -64,10 +65,24 @@ class splash extends React.Component {
                 </a>
               </span>
               <span className={styles.before} css={crosswordStyle}>
-                prog
+                <a
+                  href="https://github.com/ryanthomastech"
+                  target="_blank"
+                  title="Github"
+                  className={styles.splashLink}
+                >
+                  prog
+                </a>
               </span>
               <span className={styles.after} css={crosswordStyle}>
-                ammer
+                <a
+                  href="https://github.com/ryanthomastech"
+                  target="_blank"
+                  title="Github"
+                  className={styles.splashLink}
+                >
+                  ammer
+                </a>
               </span>
             </span>
             <span className={styles.verticalContainer} id={styles.vc_artist}>
@@ -80,13 +95,34 @@ class splash extends React.Component {
             </span>
             <span className={styles.verticalContainer} id={styles.vc_entrtnr}>
               <span className={styles.before} css={crosswordStyle}>
-                enter
+                <a
+                  href="https://twitter.com/narraturgy/"
+                  target="_blank"
+                  title="Twitter"
+                  className={styles.splashLink}
+                >
+                  enter
+                </a>
               </span>
               <span className={styles.after} css={crosswordStyle}>
-                ainer
+                <a
+                  href="https://twitter.com/narraturgy/"
+                  target="_blank"
+                  title="Twitter"
+                  className={styles.splashLink}
+                >
+                  ainer
+                </a>
               </span>
               <span className={styles.mid} css={nameStyle}>
-                T
+                <a
+                  href="https://twitter.com/narraturgy/"
+                  target="_blank"
+                  title="Twitter"
+                  className={styles.splashLink}
+                >
+                  T
+                </a>
               </span>
             </span>
             <span className={styles.verticalContainer} id={styles.vc_blog}>
